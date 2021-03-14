@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+html{
+    height:100%
+}
+
+body{
+    min-height: 100%;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    font-family: 'Akaya Telivigala', cursive;
+    color: white;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+footer{
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
